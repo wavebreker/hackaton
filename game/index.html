@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MazeGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="c" style="margin-left:auto; margin-right:auto;margin-bottom: 10px;text-align: center;width: 10%;font-size: large"></div>
+    <div class="camera">
+        <canvas id="canvas">
+    </canvas>
+    </div>
+    <div id="timerel" style="margin-left:auto; margin-right:auto;margin-top:0px;text-align: center;width: 15%;font-size: large"></div>
+    <button id="retry" style="margin-left:auto; margin-right:auto;margin-top:0px;text-align: center;width: 15%;font-size: large" onclick="window.location.reload();">Retry</button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="gamehead"></h2>
+            </div>
+            <div class="modal-footer">
+                <h2 id="demo" onmouseover="" style="cursor:pointer;">Play Again?</h2>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<!-- character movment -->
+<script src="script.js"></script>
+
+</html>
